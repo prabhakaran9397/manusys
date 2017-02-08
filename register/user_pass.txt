@@ -1,0 +1,13 @@
+ssh -vijay@104.131.171.119 - 443
+password :krish
+
+
+mysql -u root -p
+vijay
+
+sakthiprasath bitbucket :
+	sakthiprasath25@gmail.com	
+	sakthics25
+	
+
+ 

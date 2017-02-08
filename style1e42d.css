@@ -1,0 +1,218 @@
+html{
+	  	width: 100%;
+	  	height: 100%
+	  }
+	  #slideshow img{
+	position: absolute;
+	  }
+	  body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+	  }
+.preload {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+;
+	  }
+	  .floating{
+	    animation-name: floating;
+	    -webkit-animation-name: floating;
+
+	    animation-duration: 100s;   
+        animation-direction: alternate;
+	    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	    -webkit-animation-iteration-count: infinite;
+	}
+		  .floating_1{
+	    animation-name: floating;
+	    -webkit-animation-name: floating;
+        animation-delay: 1s;
+	    animation-duration: 100s;   
+/*	    -webkit-animation-duration: 1100s;
+*/        animation-direction: alternate;
+
+	    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	    -webkit-animation-iteration-count: infinite;
+	}
+		  .floating1{
+	    animation-name: floating1;
+	    -webkit-animation-name: floating1;
+
+	    animation-duration: 100s;   
+/*	    -webkit-animation-duration: 2100s;
+*/        animation-direction: alternate;
+
+	    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	    -webkit-animation-iteration-count: infinite;
+	}
+			  .floating1_1{
+	    animation-name: floating1;
+	    -webkit-animation-name: floating1;
+        animation-delay: 0s;
+        animation-direction: alternate;
+
+	    animation-duration: 100s;   
+
+	    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	    -webkit-animation-iteration-count: infinite;
+	}
+
+
+    
+	@keyframes floating {
+	    0% {
+	        transform: translateX(0%);  
+	    }
+	    100% {
+	        transform: translateX(-60%);
+	    }           
+	}
+	@keyframes floating1 {
+	    0% {
+	        transform: translateX(0%);  
+	    }
+	    100% {
+	        transform: translateX(60%);
+	    }           
+	}
+
+
+    @keyframes rocky_floating {
+	    0% {
+	        transform: translateX(0px);  
+	    }
+	    100% {
+	        transform: translateX(-4px);
+	    }           
+	}
+	    @keyframes rocky_floating1 {
+	    0% {
+	        transform: translateX(0px);  
+	    }
+	    100% {
+	        transform: translateX(4px);
+	    }           
+	}
+	    @keyframes rocky_floating2 {
+	    0% {
+	        transform: translateX(0px);  
+	    }
+	    100% {
+	        transform: translateX(-4px);
+	    }           
+	}
+	    @keyframes rocky_floating3 {
+	    0% {
+	        transform: translateX(0px);  
+	    }
+	    100% {
+	        transform: translateX(4px);
+	    }           
+	}
+.rocky{
+        animation-delay: 0s;
+        animation-direction: alternate;
+	    animation-duration: 2s;   
+	    animation-iteration-count: infinite;
+	    	  	z-index: 2;
+
+	}
+
+	.rocky1,.rocky16,.rock8{
+	    animation-name: rocky_floating;
+        animation-delay: 0s;		
+	}
+	.rocky2,.rocky15,.rock10{
+	    animation-name: rocky_floating1;
+        animation-delay: 0.1s;		
+	}
+	.rocky3,.rocky14,.rocky06{
+	    animation-name: rocky_floating2;
+        animation-delay: 0.2s;		
+	}
+	.rocky4,.rocky01,.rocky13{
+	    animation-name: rocky_floating3;
+        animation-delay: 0.3s;		
+	}
+	.rocky5,.rocky12,.rocky02{
+	    animation-name: rocky_floating1;
+        animation-delay: 0.2s;		
+	}
+	.rocky6,.rocky11,.rocky03{
+	    animation-name: rocky_floating2;
+        animation-delay: 0.1s;		
+	}
+	.rocky7,.rocky10,.rocky04{
+	    animation-name: rocky_floating3;
+        animation-delay: 0.3s;		
+	}
+	.rocky8,.rocky9,.rocky05{
+        animation-delay: 0s;		
+	}	
+    canvas{
+    	width: 100%;
+    	height: 100%;
+    z-index: 100;    position: fixed;
+    top: 0px;
+    }
+
+    @keyframes tech_rock {
+	    0% {
+	        transform: translateY(0px);  
+	    }
+	    100% {
+	        transform: translateY(8px);
+	    }           
+	}
+   .tech_rock{
+   	    animation-name: tech_rock;
+        animation-direction: alternate;
+	    animation-duration: 2s;   
+	    animation-iteration-count: infinite;
+	    	  	z-index: 2;
+
+	}
+	.cloud7{
+		animation-duration: 150s!important;
+	}
+	.rock1{
+        animation-duration: 6s;   
+		animation-delay: 0s;
+	}
+	.rock3{
+	    animation-duration: 4s;   
+		animation-delay: 0s;
+	}
+	.rock4{
+		z-index: -1;
+	    animation-duration: 5s;   
+		animation-delay: 0s;
+	}
+	.rock10{
+	    animation-duration: 4s;   
+	}
+	.rock11{
+	    animation-duration: 3s;   
+	}
+	.rock12{
+	    animation-duration: 7s;   
+	    z-index: -1;
+	}
+	.cloud6{
+		z-index: 12;
+	}
+	.cloud2{
+		z-index: 12;
+	}

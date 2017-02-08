@@ -1,0 +1,86 @@
+a:hover {
+	text-decoration: none;
+}
+
+#event- {
+	background-color: #48494b;
+	font-size: 17px;
+	margin-top: 5vh;
+	opacity: 1;
+
+	border-radius: 4px;
+}
+.modal-content{
+
+background-color:transparent;
+}
+.event-nav-content {
+	 background-color: #48494b;
+	 transition-property: background-color;
+	 transition-duration: 0.6s;
+	 color: white;
+	 padding: 1vh 0 1vh 0;
+}
+
+.event-nav-content:hover {
+	background-color: #909092;
+	color: black;
+}
+
+#workshop- {
+	background-color: #48494b;
+	font-size: 100%;
+	margin-top: 5vh;
+	opacity: 1;
+
+	border-radius: 4px;
+}
+
+.workshop-nav-content {
+	 background-color: #48494b;
+	 transition-property: background-color;
+	 transition-duration: 0.6s;
+	 color: white;
+	 padding: 1vh 0 1vh 0;
+}
+#bhubhaneshwar,#ahmedabad,#noida,#banda,#mathura,#trivandrum,#agra,#pune,#lucknow,#jaipur,#bhopal,#kolkata,#chennai,#lucknow,#vadodara,#gwalior,.iarc,.man,.soc,.sky,.flyingc,.androidc,.ethicalc,.iotc,.sixthc{
+
+background-color:rgba(255,255,255,0.9);
+}
+#ahmedabad_talks.active,#bhopal_talks.active,#banda.active,#mathura.active,#trivandrum.active,#agra.active,#pune.active,#jaipur_talks.active,#vadodara.active,#gwalior.active,#ahmedabad.active,#bhubhaneshwar.active,#noida.active,#lucknow.active,#jaipur.active,#bhopal.active,#kolkata.active,#chennai.active,#lucknow.active{
+
+background-color: #337ab7;
+    border-color: #337ab7;
+color:white;
+}
+.workshop-nav-content:hover {
+	background-color: #909092;
+	color: black;
+}
+
+.tab-content {
+	position: relative;
+	top: 5vh;
+	overflow-y: auto;
+
+height:50vh;
+border-radius:6px;
+
+    background-color: rgba(255, 255, 255,0.65);
+	margin: 0% 2% 2% 2%;
+	border: solid darkgrey 2px;
+	box-shadow: 0 4px 8px 0 grey, 0 4px 8px 0 grey;
+}
+
+.modal-title {
+	font-family: 'roboto';
+	font-size: 30px;
+	color: white;
+display:flex;
+justify-content: center;
+}
+
+.close {
+	font-size: 200%;
+	color: white;
+}

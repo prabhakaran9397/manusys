@@ -1,0 +1,128 @@
+
+.first-section .background-image {
+    width: 100%;
+    height: 100%;
+    top: -60px;
+    position: relative;
+}
+
+#slideshow {
+	    background-image: url(img/bg.jpg);
+      background-size: cover;
+      position: relative;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  width: 100%;
+}
+.body-scroll-helper{
+  z-index: 1000;
+}
+
+footer{
+  font-family: "Open Sans";
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #ececec;
+}
+footer li{
+ cursor: pointer;  
+ color: #333;
+}
+.site_map li{
+  font-size: 12px;
+}
+footer .site_map ul{
+/*  display: flex;
+*/}
+footer .site_map section>h3{
+  text-align: center;
+  color: #333;
+/*  border-bottom: 1px solid black;
+*/}
+footer .site_map li{
+  display: inline-block;
+  position: relative;
+  width: 15%;
+  text-align: center;
+}
+.page_links ul {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.page_links a{
+      margin: auto;
+}
+.page_links button a{
+  border: 1px solid #000000;
+    padding: 6px;
+    font-family: "Montserrat";
+    background-color: white;
+    font-size: 11px;
+}
+.page_links {
+  overflow:hidden;
+    position: relative;
+    z-index: 10000;
+    top: 0px;
+    width: 100%;
+        border-bottom: 1px solid grey;
+    padding: 5px;
+}
+.page_links ul li{
+         height: 40px;
+    width: 12%;
+    vertical-align: middle;
+    margin: auto;
+    color: black;
+    font-weight: 400;
+    display: inline-flex;
+    font-size: 12px;
+    position: relative;
+}
+.opaque_header{
+  background-color: #003185;
+}
+
+.site_map{
+ display: none;
+}
+.page_links li{
+    font-family: "Open Sans";
+  }
+/***li.mob_comp::before {
+    content: '';
+    border-top: 100px solid white;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 135%;
+    z-index: -11;
+    position: absolute;
+    left: -18%;
+    top: -12%;
+}*////
+.page_links button{
+    background-color: #fafafa;
+    border: none;
+}
+button:hover{
+  cursor: pointer;
+}
+/**li.mob_comp::after {
+        content: '';
+    width: 106%;
+    position: absolute;
+    color: red;
+    border-bottom: 1px solid #bfbdbd;
+    z-index: 100000000;
+    bottom: -5px;
+    left: -6px;
+}**/

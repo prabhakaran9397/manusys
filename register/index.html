@@ -1,0 +1,178 @@
+<!--
+    author   : pradeep khodke
+    url      : http://www.codingcage.com
+    facebook : http://facebook.com/CodingCage
+    twitter  : http://twitter.com/CodingCage
+    GPlus    : http://plus.googe.com/+PradeepKhodked
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Manusys'17 | CEG</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="assets/signup-form.css" type="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../tab-logo.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="assets/signup-form.css" type="text/css" />
+  <link rel="stylesheet" href="../style.css"> 
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+<header class="container-fluid bg-4 text-center"> 
+              <div class="footer-content text-center">
+                    <span class="logo">
+                            <a href="../index.html"><img src="../logo.png"/></a><br \><br \>
+                            <button class="col-2 btn home btn-info" onclick="location.href='../index.html'">Home</button>
+                        </span>
+            </div>
+
+</header>
+
+<script>
+function validateform() {
+    var x = document.forms["myForm"]["name"].value;
+    if (x == "" ||x < 4) {
+        alert("Name field is empty or length is less than or 4");
+		return false;
+    }
+	x = document.forms["myForm"]["phone_no"].value;
+    if(!isNaN(x) && x.length ==10)
+	{
+		return true;
+	}
+	else
+	{
+		alert("Invalid phone no");
+		return false;
+	}
+	
+	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    x = document.forms["myForm"]["email_id"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length         ||reg.test(x) == false) 
+    {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+
+}
+</script>
+
+<hr class="primary header">
+
+  <div class="container">
+
+    <div class="signup-form-container">
+    <h2 class="text-center">Manusys'17 </h2>
+	
+    
+         <!-- form start -->
+         <form method="post" role="form"  name="myForm" id="register-form" autocomplete="off" action="register.php" onsubmit="return validateform()" >
+         
+         <div class="form-header">
+          <h3 class="form-title"><i class="fa fa-user"></i> Sign Up</h3>
+                      
+         <div class="pull-right">
+             <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+         </div>
+                      
+         </div>
+                  
+         <div class="form-body">
+         
+            <div class="alert alert-info" id="message" style="display:none;">
+              submitted
+              </div>
+                      
+            <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                   <input name="name" type="text" class="form-control" placeholder="Full Name" required >
+                   </div>
+                   <span class="help-block" id="error"></span>
+              </div>
+                        
+              <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                   <input name="email_id" type="email" class="form-control" placeholder="Email" required >
+                   </div> 
+                   <span class="help-block" id="error"></span>                     
+              </div>
+                        
+              <!--<div class="row">
+                        
+                   <div class="form-group col-lg-6">
+                        <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input name="password" id="password" type="password" class="form-control" placeholder="Password">
+                        </div>  
+                        <span class="help-block" id="error"></span>                    
+                   </div>
+                            
+                   <div class="form-group col-lg-6">
+                        <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input name="cpassword" type="password" class="form-control" placeholder="Retype Password">
+                        </div>  
+                        <span class="help-block" id="error"></span>                    
+                   </div>
+                            
+             </div>-->
+
+              <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                   <input name="phone_no" type="tel" class="form-control" placeholder="Phone No" required >
+                   </div> 
+                   <span class="help-block" id="error"></span>                     
+              </div>
+
+              <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                   
+				   <input name="college" type="text" class="form-control" placeholder="College Name"  required >
+                   </div> 
+                   <span class="help-block" id="error"></span>                     
+              </div>
+                        
+                        
+            </div>
+            
+            <div class="form-footer">
+                 <button type="submit" class="btn btn-info" name="submit">
+                 <span class="glyphicon glyphicon-log-in"></span> Sign Me Up !
+                 </button>
+            </div>
+
+
+            </form>
+            
+           </div>
+
+  </div>
+
+<hr class="primary bottom">
+<footer class="container-fluid bg-4 text-center"> 
+              <div class="footer-content">
+                    <p>Privacy Policy | Contact INDIA</p>
+                    <p>Copyright © Manusys 2017. All rights are reserved.</p>
+                    <small><p>designed by <i><b>Manusys Team</b></i></p></small>
+            </div>
+
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery-1.11.2.min.js"></script>
+    <script src="assets/jquery.validate.min.js"></script>
+    <script src="assets/register.js"></script>
+
+</body>
+</html>

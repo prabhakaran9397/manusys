@@ -1,0 +1,75 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Manusys'17 | CEG</title>
+    <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="../tab-logo.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="assets/signup-form.css" type="text/css" />
+  <link rel="stylesheet" href="../style.css"> 
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<style type="text/css">
+  .well{
+    
+  }
+</style>
+<body>
+<header class="container-fluid bg-4 text-center"> 
+              <div class="footer-content text-center">
+                    <span class="logo">
+                            <a href="../index.html"><img src="../logo.png"/></a><br \><br \>
+                            <button class="col-2 btn home btn-info" onclick="location.href='../index.html'">Home</button>
+                        </span>
+            </div>
+
+</header>
+<hr class="primary header">
+<h2 class='glows text-center'>WORKSHOP</h2>
+<hr class="primary">
+<div class="text-center well .col-sm-4"><h2 class="glows">BMW</h2><a href="../register/index.html"><img src="../img/bmw.jpg" class="img-thumbnail mx-auto d-block" alt="Responsive image" width="400px" height="400px"></a>
+<h4 class="text-center"><a href="../register/index.html">Click here to register</a></h4>
+<h3 class="text-center">Pay Rs.1250</h3></div><hr>
+
+<hr class="primary bottom">
+<footer class="container-fluid bg-4 text-center"> 
+              <div class="footer-content">
+                    <p>Privacy Policy | Contact INDIA</p>
+                    <p>Copyright © Manusys 2017. All rights are reserved.</p>
+                    <small><p>designed by <i><b>Manusys Team</b></i></p></small>
+            </div>
+
+</footer>
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery-1.11.2.min.js"></script>
+    <script src="assets/jquery.validate.min.js"></script>
+    <script src="assets/register.js"></script>
+    <script type="text/javascript">
+      $(function() {
+
+    $('#login-form-link').click(function(e) {
+      $("#login-form").delay(100).fadeIn(100);
+    $("#register-form").fadeOut(100);
+    $('#register-form-link').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+  });
+  $('#register-form-link').click(function(e) {
+    $("#register-form").delay(100).fadeIn(100);
+    $("#login-form").fadeOut(100);
+    $('#login-form-link').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+  });
+
+});
+
+    </script>
+
+</body>
+</html>

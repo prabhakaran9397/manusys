@@ -1,0 +1,105 @@
+.mar{
+padding:40px 0 40px 0;
+}
+.bg-4 { 
+      background-color: #2f2f2f;
+      color: #fff;
+  }
+    .container-fluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+h2{
+	color:;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display:block;
+}
+.glows{
+  font-weight: bold;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+}
+hr.primary {
+    border-top: 6px solid #f89406;
+        max-width: 100px;
+    margin: 25px auto;
+    border-bottom: none;
+}
+hr.bottom{
+	max-width:100%;
+	margin-bottom: 0;
+}
+hr.header{
+	max-width:100%;
+	margin-top: 0;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 30%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (max-width: 600px){
+	.btn-lg{
+		width:100%;
+	}
+.home{
+    width:75%;
+    margin-top:60px;
+}
+.reg{
+  margin:10px 0 0 0;
+}
+}
+@media screen and (min-width: 600px){
+		.logo img{
+	width:50%;
+	height:auto;
+
+}
+.home{
+  background-color:grey;
+  font-family: verdana;
+}
+}
+
+.btn-lg{
+	    padding: 15px;
+    margin:0 5px 10px 5px;
+    display: inline-block;
+    float: left;
+    background-color: #eee;
+    font-family: verdana;
+    color: #000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.contact{
+	float: left;
+}
+
+header{
+	height:400px;
+}
+
+.logo img{
+	height:auto;
+	max-width:100%;
+	margin-top:30px;
+}

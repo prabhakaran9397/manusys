@@ -1,0 +1,73 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Manusys'17 | CEG</title>
+    <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="../tab-logo.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="assets/signup-form.css" type="text/css" />
+  <link rel="stylesheet" href="../style.css"> 
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+<header class="container-fluid bg-4 text-center"> 
+              <div class="footer-content text-center">
+                    <span class="logo">
+                            <a href="../index.html"><img src="../logo.png"/></a><br \><br \>
+                            <button class="col-2 btn home btn-info" onclick="location.href='../index.html'">Home</button>
+                        </span>
+            </div>
+
+</header>
+<hr class="primary header">
+<h1 class="text-center mar">About Us</h1>
+<hr class="primary">
+<div class="container">
+<h4>Established in the year 1978 as Society of Industrial and Production Engineers (SIPE) for empowerment of students of production background. Later in the year 1996 it was renamed as ASSOCIATION OF MANUFACTURING ENGINEERS for the young minds of manufacturing division. Since then it has proved to be an effective contributor in expansion of knowledge. This year AME completes its 20th anniversary.</h4>
+<h4>AME has organized various Guest Lectures by Notable personalities for students of  Department of Manufacturing Engineering and College of Engineering Guindy. It also focuses on development of management and technical skills of students by organizing National level technical symposium under the banner MANUSYS.  MANUSYS aims in forging the knowledge of students  towards excellency.</h4>
+<h4>Following  MANUSYS  we are organizing  “WORKSHOP WEEK” in order to propagate practical approach to the engineering   students and to enrich them with knowledge. It mainly focuses on Automotive assembly and Mechatronics. AME will always be a path finder for  the students to achieve their dreams.</h4>
+</div>
+
+<hr class="primary bottom">
+<footer class="container-fluid bg-4 text-center"> 
+              <div class="footer-content">
+                    <p>Privacy Policy | Contact INDIA</p>
+                    <p>Copyright © Manusys 2017. All rights are reserved.</p>
+                    <small><p>designed by <i><b>Manusys Team</b></i></p></small>
+            </div>
+
+</footer>
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery-1.11.2.min.js"></script>
+    <script src="assets/jquery.validate.min.js"></script>
+    <script src="assets/register.js"></script>
+    <script type="text/javascript">
+      $(function() {
+
+    $('#login-form-link').click(function(e) {
+      $("#login-form").delay(100).fadeIn(100);
+    $("#register-form").fadeOut(100);
+    $('#register-form-link').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+  });
+  $('#register-form-link').click(function(e) {
+    $("#register-form").delay(100).fadeIn(100);
+    $("#login-form").fadeOut(100);
+    $('#login-form-link').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+  });
+
+});
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+.item {
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: relative;
+  display: inline-flex;
+  background-color: white;
+}
+
+.content {
+  width: 19%;
+    height: 300px;
+    text-align: center;
+  top: 20%;
+  margin: 0 auto;
+/*  background-color: #aaa;
+*/  position: relative;
+}
+
+.selected {
+      border-bottom: 3px solid #003185 !important;
+    color: #003185!important;
+}
+
+.clear {
+  clear: both;
+}

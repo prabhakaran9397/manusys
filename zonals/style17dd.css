@@ -1,0 +1,632 @@
+body{
+  font-family: roboto;
+}
+
+
+
+.city_data .col-sm-3{
+  width:20% !important; 
+}
+
+ #about-3-carousel .list-inline>li {
+    padding-right: 2px;
+    padding-left: 2px;
+        border-radius: 0%;
+}
+
+.tab-content h4{
+  font-size: 24px;
+}
+
+.navbar-dark.top-nav-collapse .nav li#login a:after{
+  background: none;
+}
+ .portfolio-modal .container{
+  width: 93%;
+}
+
+.bhoechie-tab-content center h3{
+  margin-bottom: 0px;
+  margin-top: 0px; 
+}
+
+#about-3-carousel div{
+  box-shadow: none!important;
+}
+
+#A{
+    background: #cab9b9;    margin-right: 4px;
+}
+#E{
+    background: #cccbcb;    margin-right: 4px;
+}
+#S{
+    background: #7a9bba;    margin-right: 4px;
+}
+#I{
+    background: #a0abb5;    margin-right: 4px;
+}
+#F{
+    background: #78848e;    margin-right: 4px;
+}
+
+.nav li.active{
+background: transparent;
+}
+
+#sky:hover,#man:hover,#iarc:hover,#soc:hover,#A:hover,#E:hover,#S:hover,#I:hover,#F:hover{
+      box-shadow: 0px 0px 0px 0px !important;
+}
+#A,#E,#S,#I,#F{
+  box-shadow: 0px 7px 34px 6px;
+  padding: 0px;
+  transition-property: box-shadow;
+  transition: 0.2s;
+}
+
+#features h3{
+      text-align: center;color: black
+}
+#features p{
+      color: white
+}
+
+#features .container{
+  width: 1500px
+}
+
+.owl-item .info{
+    	left: 1px!important;
+    }
+ .owl-item{
+ 	width: initial!important;
+ 	padding: 1%;
+ }
+        .owl-wrapper{
+          width: 100%!important;
+        }
+        .footer-2{
+            padding: 0px;
+        }
+        .carousel-indicators {
+    position: absolute;
+
+    bottom: 10px;
+    z-index: 15;
+            margin-left: 0px;
+            left: 0px;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+}
+   
+ 
+.animate {
+    -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*=============== Home-team ===============*/
+
+.home-doctors {
+  text-align: center;
+  padding: 70px 0 80px;
+}
+
+.home-doctors h2 {
+    font-weight: normal;
+}
+
+.home-doctors .common-doctor {
+  background-color: #fff;
+}
+.home-doctors .common-doctor figure {
+  overflow: hidden;
+  width: 100%;
+  height: 196px;
+}
+
+.home-doctors img {
+  width: 100%;
+  height: auto;
+  margin-top: -6em;
+}
+
+.home-doctors .common-doctor h5 {
+  margin: 0 0 7px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3a3c41;
+}
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px;
+}
+.home-doctors .common-doctor .text-content {
+  padding: 19px 14px 13px;
+}
+.home-doctors.doctors-var-two {
+  text-align: left;
+  background-color: #fff;
+}
+.home-doctors.doctors-var-two .slogan-section {
+  text-align: left;
+}
+.home-doctors.doctors-var-two .common-doctor {
+  background-color: transparent;
+}
+.home-doctors.doctors-var-two .common-doctor .for-border {
+  display: none;
+}
+.home-doctors.doctors-var-two .common-doctor .text-content {
+  padding: 20px 0 20px;
+}
+.home-doctors.doctors-var-two .text-center {
+  text-align: left;
+}
+
+.slogan-section {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px;
+}
+
+.for-border {
+  height: 11px;
+  width: 100%;
+  background: transparent url(../../omarhabash.com/nova/wp-content/uploads/2014/08/feature-border.html) center center no-repeat;
+  border: none;
+}
+
+.home-doctors .common-doctor h5 small {
+  color: #008fd5;
+  font-weight: bold;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.home-doctors .common-doctor ul{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -28px;
+  text-align: center;
+  margin-top: 10em;
+  opacity: 0;
+  z-index: 1;
+}
+
+.home-doctors .common-doctor li a {
+  background: #008fd5;
+  color: white;
+  padding: 0.75em;
+  border: 5px solid rgba(255, 255, 255, 0.33);
+}
+
+
+.doc-img{
+   /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1, 1); // This is the scale for the normal size of the image.
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1, 1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1, 1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}
+
+.doc-item:hover .doc-img{
+   /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1.2, 1.2); // This is the enlarged size scale of the image.
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1.2, 1.2);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1.20, 1.20);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+
+  opacity: 0.7;
+}
+
+.doc-item:hover .social-lists{
+  margin-top: -2em;
+  opacity: 1;
+}
+
+    .logo h2{
+        padding: 0px;
+    margin-top: 8px;
+    font-size: 1.5em;
+        }
+
+@media (max-width: 769px) {	
+.modal-title{
+  display: block;
+}
+ .tab-pane h3, .tab-pane h4, .tab-pane li {
+    font-size: 10px !important;
+    line-height: inherit !important;
+ } 
+  .modal-content button.close{
+    margin-left: 80%!important
+  }
+#accordion div#collapse1 a{
+  font-size: 8px!important
+}  
+  .list-group .list-group-item{
+    height: auto!important;
+  }
+#workshop- a{
+  display: block !important;
+  width: 30% !important;
+  float: left !important;
+}
+.event-nav-content, .workshop-nav-content{
+  font-size: 8px!important
+}
+.panel-title{
+  font-size: 8px!important;
+}
+.bhoechie-tab-content h2,.bhoechie-tab-content h3,.bhoechie-tab-content h4{
+  font-size: 10px;
+}
+.tab-content h4{
+  padding: 0px!important;
+}
+.panel-heading{
+  padding: 0px !important;
+}
+
+.portfolio-modal-3 h4,.portfolio-modal-3 h3{
+  font-size: 8px !important;
+}
+
+.portfolio-modal-3  .row{
+  width: 100%;
+}
+div.bhoechie-tab-container{
+  width: 100%;
+}
+.portfolio-1 .portfolio-item .portfolio-link .caption{
+	top: 0% !important;
+}
+.city_data .col-sm-3{
+	width: 32% !important;
+}
+.mob li{
+	    font-size: 6px !important;
+    height: 30px !important;
+    border-bottom: 1px solid black;
+    margin-top: 0px!important
+}
+.mob h3{
+	height: 30px!important
+}
+.mob p{
+	font-size: 1em !important;
+    margin-top: 5px !important;
+}
+
+section#about{
+	background: none!important;
+}
+.mob .caption p{
+	font-size: 0.8em !important;
+} 
+.portfolio-modal .container{
+  width: 100% !important
+}
+
+.portfolio-modal .close-modal{
+    top: 75px !important;
+    right: -10px !important;	
+}
+
+#portfolio-modal-3 li,.list-group a{
+	font-size: 12px !important;
+}
+div.bhoechie-tab-container{
+	margin-left: 0px!important;
+	margin-top: 40px !important;
+}
+
+.panel-body center h4{
+	font-size: 10px!important;
+	line-height: 20px !important
+}
+.navbar-nav>li>a{
+	text-align: center;
+}
+
+.logo{
+	display: block !important;
+}
+
+#contact .col-xs-6{
+	min-height: 360px !important;
+}
+#contact .about-img-5{
+	margin-left: 0% !important;
+}
+
+.portfolio-1 .portfolio-item .portfolio-link .caption h3{
+      font-size:10px !important;
+}
+   .intro-slider .item, .intro-slider-half .item{
+  height: 70% !important
+ }
+.about-1 #about-1-carousel .item, .about-3 #about-1-carousel .item, .about-1 #about-3-carousel .item, .about-3 #about-3-carousel .item{
+  margin:0px;
+}
+
+    #features .isotope div{
+  min-height: 265px !important;
+  margin: 0px !important;
+  padding:2px !important;
+}
+  
+	.carousel-indicators li{
+		font-size: 9px
+	}
+	.intro-slider, .intro-slider-half{
+	padding: 0;
+    position: relative;
+    top: 50px;
+    height: 250px;
+}
+.intro-slider .carousel-caption, .intro-slider-half .carousel-caption{
+	top: 10px;
+}
+.carousel-caption .page-scroll{
+	display: none;
+}
+.about-3 #about-3-carousel #vika{
+margin-left:1%;
+}
+#manna{
+
+}
+#may{
+
+}
+.about-3 #about-3-carousel #aks{
+margin-left:0%;
+}
+.about-3 #about-3-carousel #gou{
+margin-left:-1%;
+}
+}
+
+
+
+@media (min-width: 767px) {	
+.about-techno{
+  position: relative !important;
+}
+ .about-img-5{
+ 	background-image: url("assets/img/contact/Akshat.jpg");
+ } 
+ .about-img-6{
+ 	background-image: url("assets/img/contact/Mayank.jpg");
+ } 
+ .about-img-7{
+ 	background-image: url("assets/img/contact/Anirban.jpg");
+ } 
+ .about-img-2{
+ 	background-image: url("assets/img/contact/Naveed.jpg");
+ } 
+ .about-img-1{
+ 	background-image: url("assets/img/contact/Yeshwanth.jpg");
+ } 
+ .about-img-4{
+ 	background-image: url("assets/img/contact/Gourav.jpg");
+ } 
+ .about-img-3{
+ 	background-image: url("assets/img/contact/Vikas.jpg");
+ } 
+ .about-img-8{
+ 	background-image: url("assets/img/contact/raj.html");
+ } 
+
+}
+
+.bhoechie-tab-content .container{
+     position: absolute;
+    top: 0px;
+    height: auto;
+        max-height: 530px;
+
+  }
+
+.bhoechie-tab-content .container .nav{
+    background-color: #5f5aa5;
+    padding: 10px;
+    border-radius: 6px;
+}
+.bhoechie-tab-content .container .nav li{
+  bottom: -10px;
+}
+.panel-primary>.panel-heading {
+    background-color: #5f5aa5;
+    border-color: #5f5aa5;
+}
+
+.panel {
+
+}
+
+#features .isotope div{
+  min-height: 208px;
+}
+
+.portfolio-1 .portfolio-item{
+  overflow: hidden;
+}
+
+.portfolio-1 .portfolio-item .portfolio-link .caption{
+  opacity: 1;
+  top: 85%;
+}
+
+.portfolio-1 .portfolio-item .portfolio-link:hover .caption{
+  top: 0%;
+  transition:0.5s cubic-bezier(0.36, 1.13, 0.68, 0.99);
+}
+
+.modal-content .container h2{
+  text-align: center;
+}
+
+.info p{
+  padding-top:  !important;
+  padding-bottom: 0px !important;
+}
+.portfolio-1 .portfolio-item .portfolio-link .caption{
+      opacity: 0.9 !important;
+}
+
+@media (min-width: 767px){
+.about-1 #about-1-carousel .item .info, .about-3 #about-1-carousel .item .info, .about-1 #about-3-carousel .item .info, .about-3 #about-3-carousel .item .info {
+    background: rgba(65, 55, 41, 0.8) !important;
+}
+#vika{
+
+}
+#manna{
+
+}
+#may{
+
+}
+.about-3 #about-3-carousel #aks{
+margin-left:22%;
+}
+.about-3 #about-3-carousel #yesh{
+margin-left:10%;
+}
+#gou{
+
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*.active {
+  background-color: whitesmoke;
+}*/
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#about{
+    height: 100vh
+}
+/*.city_data .img-centered{
+  min-height: 270px !important;
+}*/
+.city_data .portfolio-link{
+	max-height: 270px;
+}
+
+#iarc,#man,#sky,#soc {
+
+
+  transition-property: box-shadow, background-color;
+  transition: 0.2s;
+}
+
+#iarc:hover,#man:hover,#sky:hover,#soc:hover {
+
+
+}
+
+.event-modal {
+  width: 80vw;
+  height: 80vh;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  padding-right: 0;
+  border: solid black 2px;
+}
+
+.city-home {
+  background-color: beige;
+  padding: 4vh;
+}
+
+.panel a {
+  color: black;
+}
+
+.panel-heading h4 {
+  font-size: 100%;
+  font-family: roboto;
+}
